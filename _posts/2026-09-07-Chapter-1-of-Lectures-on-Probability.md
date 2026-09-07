@@ -1,30 +1,31 @@
 ---
 title: Chapter 1 of Lectures on Probability 
-description: Examples of text, typography, math equations, diagrams, flowcharts, pictures, videos, and more.
-author: cotes
-date: 2019-08-08 11:33:00 +0800
-categories: [Blogging, Demo]
-tags: [typography]
+description: "Basic probability theory lectures by Prof. Dooho Lee, Kangwon University"
+author: Sproutato
+date: 2026-09-07 16:19:00 +0900
+categories: [MachineLearning]
+tags: [Probability]
 pin: true
 math: true
 mermaid: true
 image:
-  path: 
-  lqip: 
-  alt: 
+  path: /assets/posts/2026-09-05-Chapter 1 of Lectures on Probability/image 0.png
+  alt: Definition of probability
 ---
 
 
 # Chapter 1 of Lectures on Probability
 
 Date: July 8, 2026
-Projects: Machine Learning I (https://app.notion.com/p/Machine-Learning-I-37e562ef2201804ab511fe5c9995358a?pvs=21)
+Projects: Machine Learning I
 
 쉬었음 청년의 쉬었음 탈출기. From scratch From now on
 
 출처 : 강원대학교 삼척캠퍼스 AI 소프트웨어 학과 이두호 교수님의 확률 강의
 
 +머신러닝을 공부하기 이전 기본적인 확률 이론을 정리하자. 
+
+
 
 # Chapter 1. Basic probability
 
@@ -34,7 +35,7 @@ Projects: Machine Learning I (https://app.notion.com/p/Machine-Learning-I-37e562
 
 ## Definition of probability
 
-![image.png](\assets\posts\2026-09-05-Chapter 1 of Lectures on Probability\image 0.png)
+![image.png](/assets/posts/2026-09-05-Chapter 1 of Lectures on Probability/image 0.png)
 
 ### sample space $(\Omega)$
 
@@ -70,7 +71,7 @@ Projects: Machine Learning I (https://app.notion.com/p/Machine-Learning-I-37e562
 
 ## Axioms of Probability
 
-![image.png](\assets\posts\2026-09-05-Chapter 1 of Lectures on Probability\image 1.png)
+![image.png](/assets/posts/2026-09-05-Chapter 1 of Lectures on Probability/image 1.png)
 
 - 어떤 사건 $E$가 일어날 확률은 0보다 작을수도, 1보다 클 수 없다.
 - 어떤 사건이 표본공간(가능한 모든 결과의 집합)에 속할 확률은 1이다.
@@ -81,7 +82,7 @@ Projects: Machine Learning I (https://app.notion.com/p/Machine-Learning-I-37e562
 
 ## Laws
 
-![image.png](\assets\posts\2026-09-05-Chapter 1 of Lectures on Probability\image 2.png)
+![image.png](/assets/posts/2026-09-05-Chapter 1 of Lectures on Probability/image 2.png)
 
 ### 1. Additive law
 
@@ -113,7 +114,7 @@ $$
 
 ## Random variable(확률변수)
 
-![image.png](\assets\posts\2026-09-05-Chapter 1 of Lectures on Probability\image 3.png)
+![image.png](/assets/posts/2026-09-05-Chapter 1 of Lectures on Probability/image 3.png)
 
 ### Random variable
 
@@ -144,7 +145,7 @@ $$
 
 ## Total probability
 
-![image.png](\assets\posts\2026-09-05-Chapter 1 of Lectures on Probability\image 4.png)
+![image.png](/assets/posts/2026-09-05-Chapter 1 of Lectures on Probability/image 4.png)
 
 - 표본 공간 $\Omega$ 을 빠짐없이 포함하며 서로 배반인  n개의 표본공간을 분할하는 사건들 $\{E\}^{n}_{i=1}$ 과 사건 $A$가 존재한다.
 
@@ -219,7 +220,7 @@ $$
 
 ## Random variable(확률변수)
 
-![image.png](\assets\posts\2026-09-05-Chapter 1 of Lectures on Probability\image 5.png)
+![image.png](/assets/posts/2026-09-05-Chapter 1 of Lectures on Probability/image 5.png)
 
 - 확률변수는 무작위 실험 결과에 의해 수치값이 결정되는 실수값 함수로 표본공간의 각 원소를 실수에 대응시키는 함수이다.
 
@@ -331,7 +332,7 @@ $$
 - 결합확률분포 : 두 개 이상의 확률변수가 동시에 특정한 값 또는 범위에 속할 확률을 나타내는 분포
 - 주변확률분포 : 결합확률분포에서 하나의 확률변수에 대한 확률분포를 추출하는 것
 
-![이산확률변수 $X,Y$의 결합확률분포와 주변확률 분포를 보여주는 Table](\assets\posts\2026-09-05-Chapter 1 of Lectures on Probability\image%205.png)
+![이산확률변수 $X,Y$의 결합확률분포와 주변확률 분포를 보여주는 Table](/assets/posts/2026-09-05-Chapter 1 of Lectures on Probability/image%205.png)
 
 이산확률변수 $X,Y$의 결합확률분포와 주변확률 분포를 보여주는 Table
 
