@@ -332,7 +332,7 @@ $$
 - 결합확률분포 : 두 개 이상의 확률변수가 동시에 특정한 값 또는 범위에 속할 확률을 나타내는 분포
 - 주변확률분포 : 결합확률분포에서 하나의 확률변수에 대한 확률분포를 추출하는 것
 
-![이산확률변수 $X,Y$의 결합확률분포와 주변확률 분포를 보여주는 Table](\assets\posts\2026-09-05-Chapter 1 of Lectures on Probability\image%205.png)
+![이산확률변수 $X,Y$의 결합확률분포와 주변확률 분포를 보여주는 Table](/assets/posts/2026-09-05-Chapter 1 of Lectures on Probability/image%205.png)
 
 이산확률변수 $X,Y$의 결합확률분포와 주변확률 분포를 보여주는 Table
 
