@@ -1,5 +1,5 @@
 ---
-title: Text and Typography
+title: Chapter 1 of Lectures on Probability 
 description: Examples of text, typography, math equations, diagrams, flowcharts, pictures, videos, and more.
 author: cotes
 date: 2019-08-08 11:33:00 +0800
@@ -9,31 +9,12 @@ pin: true
 math: true
 mermaid: true
 image:
-  path: /commons/devices-mockup.png
-  lqip: data:image/webp;base64,UklGRpoAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDIAAAARL0AmbZurmr57yyIiqE8oiG0bejIYEQTgqiDA9vqnsUSI6H+oAERp2HZ65qP/VIAWAFZQOCBCAAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
-  alt: Responsive rendering of Chirpy theme on multiple devices.
+  path: 
+  lqip: 
+  alt: 
 ---
 
 
-
-## Tables
-
-| Company                      | Contact          | Country |
-| :--------------------------- | :--------------- | ------: |
-| Alfreds Futterkiste          | Maria Anders     | Germany |
-| Island Trading               | Helen Bennett    |      UK |
-| Magazzini Alimentari Riuniti | Giovanni Rovelli |   Italy |
-
-# Notion
-
-| 1 | 2 | 3 |
-| --- | --- | --- |
-| 2 | ddddddddddddddddddddddd3sasd | 4 |
-| 3 | 4 | 3 |
-
----
----
----
 # Chapter 1 of Lectures on Probability
 
 Date: July 8, 2026
@@ -53,7 +34,7 @@ Projects: Machine Learning I (https://app.notion.com/p/Machine-Learning-I-37e562
 
 ## Definition of probability
 
-![image.png](image.png)
+![image.png](\assets\posts\2026-09-05-Chapter 1 of Lectures on Probability\image 0.png)
 
 ### sample space $(\Omega)$
 
@@ -89,7 +70,7 @@ Projects: Machine Learning I (https://app.notion.com/p/Machine-Learning-I-37e562
 
 ## Axioms of Probability
 
-![image.png](image%201.png)
+![image.png](\assets\posts\2026-09-05-Chapter 1 of Lectures on Probability\image 1.png)
 
 - 어떤 사건 $E$가 일어날 확률은 0보다 작을수도, 1보다 클 수 없다.
 - 어떤 사건이 표본공간(가능한 모든 결과의 집합)에 속할 확률은 1이다.
@@ -100,7 +81,7 @@ Projects: Machine Learning I (https://app.notion.com/p/Machine-Learning-I-37e562
 
 ## Laws
 
-![image.png](image%202.png)
+![image.png](\assets\posts\2026-09-05-Chapter 1 of Lectures on Probability\image 2.png)
 
 ### 1. Additive law
 
@@ -132,7 +113,7 @@ $$
 
 ## Random variable(확률변수)
 
-![image.png](image%203.png)
+![image.png](\assets\posts\2026-09-05-Chapter 1 of Lectures on Probability\image 3.png)
 
 ### Random variable
 
@@ -163,7 +144,7 @@ $$
 
 ## Total probability
 
-![image.png](image%204.png)
+![image.png](\assets\posts\2026-09-05-Chapter 1 of Lectures on Probability\image 4.png)
 
 - 표본 공간 $\Omega$ 을 빠짐없이 포함하며 서로 배반인  n개의 표본공간을 분할하는 사건들 $\{E\}^{n}_{i=1}$ 과 사건 $A$가 존재한다.
 
@@ -238,7 +219,7 @@ $$
 
 ## Random variable(확률변수)
 
-![image.png](image%203.png)
+![image.png](\assets\posts\2026-09-05-Chapter 1 of Lectures on Probability\image 5.png)
 
 - 확률변수는 무작위 실험 결과에 의해 수치값이 결정되는 실수값 함수로 표본공간의 각 원소를 실수에 대응시키는 함수이다.
 
@@ -350,7 +331,7 @@ $$
 - 결합확률분포 : 두 개 이상의 확률변수가 동시에 특정한 값 또는 범위에 속할 확률을 나타내는 분포
 - 주변확률분포 : 결합확률분포에서 하나의 확률변수에 대한 확률분포를 추출하는 것
 
-![이산확률변수 $X,Y$의 결합확률분포와 주변확률 분포를 보여주는 Table](image%205.png)
+![이산확률변수 $X,Y$의 결합확률분포와 주변확률 분포를 보여주는 Table](\assets\posts\2026-09-05-Chapter 1 of Lectures on Probability\image%205.png)
 
 이산확률변수 $X,Y$의 결합확률분포와 주변확률 분포를 보여주는 Table
 
