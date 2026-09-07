@@ -1,17 +1,16 @@
 ---
 title: Chapter 1 of Lectures on Probability 
-description: Examples of text, typography, math equations, diagrams, flowcharts, pictures, videos, and more.
-author: cotes
-date: 2019-08-08 11:33:00 +0800
-categories: [Blogging, Demo]
-tags: [typography]
+description: "Basic probability theory lectures by Prof. Dooho Lee, Kangwon University"
+author: Sproutato
+date: 2026-09-07 16:19:00 +0800
+categories: [MachineLearning]
+tags: [Probability]
 pin: true
 math: true
 mermaid: true
 image:
-  path: 
-  lqip: 
-  alt: 
+  path: \assets\posts\2026-09-05-Chapter 1 of Lectures on Probability\image 0.png
+  alt: Definition of probability
 ---
 
 
