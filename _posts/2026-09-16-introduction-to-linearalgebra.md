@@ -12,7 +12,7 @@ mermaid: true
 image:
   path: /assets/posts/2026-09-16-introduction-to-linearalgebra/cover.png
   lqip: data:image/webp;base64,UklGRpoAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDIAAAARL0AmbZurmr57yyIiqE8oiG0bejIYEQTgqiDA9vqnsUSI6H+oAERp2HZ65qP/VIAWAFZQOCBCAAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
-  alt: "Cover image for Chapter 1: Introduction to Probability"
+  alt: "Cover image for Chapter 1: Introduction to Linearalgebra"
 ---
 
 Projects: Linear Algebra (https://app.notion.com/p/Linear-Algebra-37e562ef2201808f94b6edcde2ac7502?pvs=21)

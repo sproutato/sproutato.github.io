@@ -19,7 +19,7 @@ POST_DATE = "2026-09-16"
 POST_SLUG = "introduction-to-linearalgebra"
 
 # ============================================================
-# 설정2 - front matter
+# 설정2 - front matter 정보 입력
 # ============================================================
 POST_TITLE = "test post title"   
 DESCRIPTION = "study note of linear algebra, textbook : Introduction to Linear Algebra, 5th edition, by Gilbert Strang"  # 게시글 설명
@@ -41,14 +41,14 @@ MERMAID = True
                   # 게시글을 상단 고정하지 않도록 설정
                     # 수학식 렌더링 기능을 활성화
                    # Mermaid 다이어그램 렌더링 기능을 활성화
-IMAGE_PATH = "/assets/posts/2026-09-16-introduction-to-linearalgebra/cover.png"  # 게시글 대표 이미지 경로
+IMAGE_PATH = ""  # 게시글 대표 이미지 경로
 IMAGE_LQIP = ("data:image/webp;base64,"                                          # 게시글 대표 이미지 로딩 전 표시할 저화질 placeholder 경로
 "UklGRpoAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDIAAAARL0AmbZurmr57yyIiqE8oiG0bejIYEQTgqiDA9vqnsUSI6H+oAERp2HZ65qP/"
 "VIAWAFZQOCBCAAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA")  
-IMAGE_ALT = "Cover image for Chapter 1: Introduction to Probability"  # 게시글
+IMAGE_ALT = ""  # 게시글
 
 # ============================================================
-# 설정3 - 자동
+# 설정3 - 기본값들 + 자동 설정
 # ============================================================
 
 # Jekyll 프로젝트 루트
@@ -343,7 +343,7 @@ def main():                                                          # Notion Ma
         "image:\n"                                                   # 대표 이미지 관련 YAML 블록 시작
         f"  path: {IMAGE_PATH}\n"                                    # 대표 이미지의 웹 경로 입력
         f"  lqip: {IMAGE_LQIP}\n"                                    # 대표 이미지 로딩 전에 보여줄 LQIP 데이터 입력
-        f'  alt: "{IMAGE_ALT}"\n'                                    # 대표 이미지의 대체 텍스트 입력
+        f'  alt: "{POST_TITLE}"\n'                                    # 대표 이미지의 대체 텍스트 입력
         "---\n\n"                                                    # Front Matter를 종료하고 본문과 두 줄 간격 생성
     )                                                               # Front Matter 문자열 생성 종료
 
